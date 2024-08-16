@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "orm"
+version = "0.1.0"
+description = "A simple ORM for sqlite in python."
+authors = ["Ashish Khare <akstyles211@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.scripts]
+test = "test_QueryBuilder:TestQueryBuilder"
+pretty = "black ."
+
+[tool.poetry.dependencies]
+python = "^3.12"
+black = "^24.8.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
