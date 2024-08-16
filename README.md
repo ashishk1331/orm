@@ -1,3 +1,5 @@
+![Banner for ORM reponsibilities](banner.jpg)
+
 ## (Potential) Responsibilities of an ORM
 
 -   create database
